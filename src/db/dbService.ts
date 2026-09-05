@@ -1384,6 +1384,43 @@ export class DatabaseService {
     }
   }
 
+  public logAnalyticsEvent(event: {
+    eventType: string;
+    details?: Record<string, any>;
+    ip?: string;
+    userEmail?: string;
+    correlationId?: string;
+  }): void {
+    const details = {
+      ...(event.details ?? {}),
+      ...(event.correlationId ? { correlationId: event.correlationId } : {}),
+    };
+
+    if (!this.isPostgres || !this.drizzleDb) {
+      this.mockAuditLogs.push({
+        action: event.eventType,
+        details,
+        userEmail: event.userEmail,
+        ip: event.ip,
+        status: "success",
+        correlationId: event.correlationId,
+        createdAt: new Date(),
+      });
+      return;
+    }
+
+    void this.drizzleDb.insert(schema.auditLogs).values({
+      action: event.eventType,
+      details,
+      userEmail: event.userEmail,
+      ip: event.ip,
+      status: "success",
+      correlationId: event.correlationId,
+    }).catch((err: Error) => {
+      logger.error({ error: err.message, eventType: event.eventType }, "logAnalyticsEvent PG Error");
+    });
+  }
+
   // ──────────────────────────────────────────────────────────────────────────────
   //  Public fallback datastore surfaces consumed by monitoring / backup tooling.
   //  These mirror the live in-memory collections so the rest of the app can
