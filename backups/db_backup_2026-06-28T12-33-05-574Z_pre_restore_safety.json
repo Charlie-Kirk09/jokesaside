@@ -1,0 +1,1478 @@
+{
+  "version": "pg_export_v1",
+  "timestamp": "2026-06-28T12:33:06.720Z",
+  "users": [
+    {
+      "id": 1,
+      "email": "student@uniinfo.edu",
+      "password": "Salt:hasheddummy",
+      "role": "Student",
+      "name": "Sample Student",
+      "loginFailures": 0,
+      "lockedUntil": 0,
+      "createdAt": "2026-06-27T14:29:30.666Z",
+      "emailVerified": true,
+      "verificationToken": null,
+      "verificationExpires": null
+    },
+    {
+      "id": 2,
+      "email": "gamekillerr206@gmail.com",
+      "password": "7c463dad9b3f3a0a5a1a101f1cb556c7:6e494105cecd41ea6e3e4a3d71cdd3860276e94f1fda232c1748cdac0badb3debe28b95b52a846608405a983722d90722491222be1d6e50f1f7b3066ee853f01",
+      "role": "Student",
+      "name": "King",
+      "loginFailures": 0,
+      "lockedUntil": 0,
+      "createdAt": "2026-06-27T15:25:12.300Z",
+      "emailVerified": true,
+      "verificationToken": "c6924229396df7a95e086e040a12f38b2e0c31db85b14f2785cca3fe64dbe244",
+      "verificationExpires": "2026-06-28T15:25:48.677Z"
+    }
+  ],
+  "universities": [
+    {
+      "id": 5,
+      "name": "BITS Pilani",
+      "location": "Pilani, India",
+      "state": "Rajasthan",
+      "type": "Private",
+      "fee": 420000,
+      "rating": 4.7,
+      "students": "15,000+",
+      "courses": 180,
+      "image": "https://picsum.photos/seed/bits/800/500",
+      "logo": "https://logo.clearbit.com/bits-pilani.ac.in",
+      "categories": [
+        "Technical",
+        "Science"
+      ],
+      "stream": [
+        "Engineering",
+        "Science"
+      ],
+      "degrees": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "majors": [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering"
+      ],
+      "popularCourses": [
+        "B.E. Computer Science",
+        "M.E. Software Systems",
+        "B.E. Chemical Engineering"
+      ],
+      "phone": "+91 1596 242510",
+      "competitiveExams": [
+        "BITSAT"
+      ],
+      "min10th": 60,
+      "min12th": 75,
+      "naacGrade": "A",
+      "nirfRank": 25,
+      "aicteApproved": true,
+      "nbaAccredited": true,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 11.8,
+      "website": "https://www.bits-pilani.ac.in/",
+      "virtualTourUrl": "https://www.bits-pilani.ac.in/virtual-tour/",
+      "expertInsight": "BITS Pilani remains the gold standard for private engineering in India. Their 'Zero Attendance' policy and strong entrepreneurial culture have produced some of the world's most successful startup founders.",
+      "alumniStories": [
+        {
+          "id": 101,
+          "name": "Tanmay Bakshi",
+          "role": "AI Scientist & Entrepreneur",
+          "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+          "quote": "The academic freedom and 'Zero Attendance' policy at BITS Pilani allowed me to start build startups in my undergrad and deeply master neural networks without structural boundaries.",
+          "company": "NeuralNet Ventures",
+          "graduationYear": 2012,
+          "achievementBadge": "Forbes Under 30"
+        },
+        {
+          "id": 102,
+          "name": "Sridhar Vembu",
+          "role": "Founder & CEO",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+          "quote": "BITS built the raw technical grit and core collaborative networks that ultimately empowered Zoho to bootstrap from Indian soils to competing with Silicon Valley titans.",
+          "company": "Zoho Corporation",
+          "graduationYear": 1989,
+          "achievementBadge": "Padma Shri Awardee"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "Pilani Clock Tower Block",
+            "type": "academic",
+            "capacity": "4,500 students",
+            "highlights": [
+              "Pilani Clock Tower landmark",
+              "Bose & Raman Lecture Halls",
+              "Smart interaction spaces"
+            ],
+            "description": "The historical central academic building configured with heritage lecture theatres, mechanical halls, and modern acoustic smart classrooms."
+          },
+          {
+            "id": "research-park",
+            "name": "Birla Research & Incubation Wing",
+            "type": "research",
+            "capacity": "15 advanced labs",
+            "highlights": [
+              "Cleanroom class 100 semiconductor bay",
+              "PILANI Innovation Hub",
+              "MEMS Design tools center"
+            ],
+            "description": "Cutting edge laboratory setups focusing on nanotechnology, micro-electronics, VLSI fabrication, and student startup incubators."
+          },
+          {
+            "id": "residential",
+            "name": "Vyas & Meera Residential Complexes",
+            "type": "residential",
+            "capacity": "6,500+ residents",
+            "highlights": [
+              "Integrated dining services",
+              "Lush visual lawn courtyards",
+              "Vyas sports arena"
+            ],
+            "description": "Surrounding campus gardens, these student residences hold spacious single study quarters, high-bandwidth connections, and dynamic recreational common rooms."
+          },
+          {
+            "id": "recreational",
+            "name": "BITS Students Union (SU) Plaza",
+            "type": "recreational",
+            "capacity": "3,500 capacity",
+            "highlights": [
+              "Open-air concrete amphitheatre",
+              "Fully-franchised central food courts",
+              "SU tech support desk"
+            ],
+            "description": "Massive active hub containing computing grids, reading halls, open air amphitheatre, and hosting national scale tech and cultural fests (APOGEE, OASIS)."
+          }
+        ],
+        "acreage": 328,
+        "hasHostels": true,
+        "established": 1964,
+        "totalBuildings": 84
+      },
+      "createdAt": "2026-06-27T14:29:30.733Z"
+    },
+    {
+      "id": 7,
+      "name": "VIT Vellore",
+      "location": "Vellore, India",
+      "state": "Tamil Nadu",
+      "type": "Private",
+      "fee": 320000,
+      "rating": 4.5,
+      "students": "35,000+",
+      "courses": 300,
+      "image": "https://picsum.photos/seed/vit/800/500",
+      "logo": "https://logo.clearbit.com/vit.ac.in",
+      "categories": [
+        "Technical",
+        "Industry"
+      ],
+      "stream": [
+        "Engineering",
+        "Management"
+      ],
+      "degrees": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "majors": [
+        "Computer Science",
+        "AI & ML",
+        "Biotechnology",
+        "Business Analytics"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Biotech",
+        "MBA Business Analytics"
+      ],
+      "phone": "1800-000-000",
+      "competitiveExams": [
+        "VITEEE"
+      ],
+      "min10th": 60,
+      "min12th": 60,
+      "naacGrade": "A++",
+      "nirfRank": 11,
+      "aicteApproved": true,
+      "nbaAccredited": true,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 9.5,
+      "website": "https://vit.ac.in/",
+      "virtualTourUrl": "https://vit.ac.in/virtual-tour/",
+      "expertInsight": "VIT Vellore is renowned for its massive campus and industry-linked curriculum. Their FFCS (Fully Flexible Credit System) allows students to design their own timetable, a feature that is highly appreciated by self-driven learners.",
+      "alumniStories": [
+        {
+          "id": 201,
+          "name": "Sneha Nair",
+          "role": "Staff Machine Learning Engineer",
+          "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
+          "quote": "The Fully Flexible Credit System (FFCS) let me customize my timeline so I could take advanced graduate-level AI math subjects earlier—opening rapid entries to tech research.",
+          "company": "Microsoft Research",
+          "graduationYear": 2016,
+          "achievementBadge": "Women In Tech Leader"
+        },
+        {
+          "id": 202,
+          "name": "Abhishek Gupta",
+          "role": "VP of Engineering",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+          "quote": "VIT's scale and high density of student clubs taught me how to coordinate massive operations and build fault-tolerant payment infrastructures that serve millions daily today.",
+          "company": "Razorpay",
+          "graduationYear": 2010,
+          "achievementBadge": "Fintech Leader 2024"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "Silver Jubilee Tower (SJT)",
+            "type": "academic",
+            "capacity": "12,000+ seats",
+            "highlights": [
+              "10 storeys high",
+              "Central air-conditioned atrium",
+              "Advanced IoT programming bays"
+            ],
+            "description": "Massive modern high-rise tower containing multi-tier computing centers, advanced networking setups, and smart lecture halls."
+          },
+          {
+            "id": "research-park",
+            "name": "Vellore Tech Business Incubator",
+            "type": "research",
+            "capacity": "45 active startups",
+            "highlights": [
+              "Incubation venture desks",
+              "Robotics modeling lab",
+              "High-spec 3D printers bay"
+            ],
+            "description": "Department of Science and Tech-sponsored startup incubator helping young engineers launch business prototypes with legal and capital assets."
+          },
+          {
+            "id": "residential",
+            "name": "Premium Resident Towers (Q & R Block)",
+            "type": "residential",
+            "capacity": "9,000 residents",
+            "highlights": [
+              "Fully air-conditioned corridors",
+              "Central Food Street arcade",
+              "Fitness gym suites"
+            ],
+            "description": "Multi-level modern hostels featuring indoor sporting complexes, study halls, and extensive domestic culinary facilities."
+          },
+          {
+            "id": "recreational",
+            "name": "Anna Amphitheatre & Sports Arena",
+            "type": "recreational",
+            "capacity": "5,000 seats",
+            "highlights": [
+              "Acoustically insulated hall",
+              "Olympic-standard athletic track",
+              "Multiple tennis courts"
+            ],
+            "description": "Grand central convention grounds hosting massive college events and state-of-the-art synthetic sports courts."
+          }
+        ],
+        "acreage": 372,
+        "hasHostels": true,
+        "established": 1984,
+        "totalBuildings": 110
+      },
+      "createdAt": "2026-06-27T14:29:30.930Z"
+    },
+    {
+      "id": 8,
+      "name": "Manipal Institute of Technology",
+      "location": "Manipal, India",
+      "state": "Karnataka",
+      "type": "Private",
+      "fee": 430000,
+      "rating": 4.4,
+      "students": "10,000+",
+      "courses": 120,
+      "image": "https://picsum.photos/seed/manipal/800/500",
+      "logo": "https://logo.clearbit.com/manipal.edu",
+      "categories": [
+        "Technical",
+        "Innovation"
+      ],
+      "stream": [
+        "Engineering"
+      ],
+      "degrees": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "majors": [
+        "Computer Science",
+        "Mechatronics",
+        "Information Technology",
+        "Biomedical Engineering"
+      ],
+      "popularCourses": [
+        "B.Tech IT",
+        "B.Tech Mechatronics",
+        "M.Tech Digital Electronics"
+      ],
+      "phone": "1800-000-000",
+      "competitiveExams": [
+        "MET"
+      ],
+      "min10th": 60,
+      "min12th": 60,
+      "naacGrade": "A+",
+      "nirfRank": 45,
+      "aicteApproved": true,
+      "nbaAccredited": false,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 10,
+      "website": "https://www.manipal.edu/",
+      "virtualTourUrl": "https://manipal.edu/mit/virtual-tour.html",
+      "expertInsight": "Manipal Institute of Technology is highly acclaimed for both academic excellence and its stellar, world-class campus layout in coastal Karnataka. Its stellar indoor sport facilities (Marena) are unparalleled in Asia.",
+      "alumniStories": [
+        {
+          "id": 301,
+          "name": "Satya Nadella",
+          "role": "CEO",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+          "quote": "My years at MIT Manipal laid the foundation for technical curiosity and taught me to lead with empathy, adapting tech configurations for positive human empowerment.",
+          "company": "Microsoft",
+          "graduationYear": 1988,
+          "achievementBadge": "Global Tech CEO"
+        },
+        {
+          "id": 302,
+          "name": "Rajeev Suri",
+          "role": "Former CEO",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+          "quote": "The vibrant, multi-disciplinary student dynamic at Manipal made us highly responsive and adaptable to demanding international markets.",
+          "company": "Nokia",
+          "graduationYear": 1989,
+          "achievementBadge": "Telecom Luminary"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "MIT Main Academic Block",
+            "type": "academic",
+            "capacity": "5,000 seats",
+            "highlights": [
+              "Iconic dome architecture",
+              "Central library integration",
+              "Mechanical prototyping vaults"
+            ],
+            "description": "Original stone structure housing core mechanical halls, electrical workshops, and high-spec lecture theatres."
+          },
+          {
+            "id": "research-park",
+            "name": "Manipal Research & Innovation Centre",
+            "type": "research",
+            "capacity": "25 specialized labs",
+            "highlights": [
+              "Student Satellite Project bay",
+              "Embedded firmware lab",
+              "3D printing studio"
+            ],
+            "description": "Collaborative research space focusing on student satellite creation, biomedicine development, and embedded computing systems."
+          },
+          {
+            "id": "residential",
+            "name": "MIT Premium Student Residencies",
+            "type": "residential",
+            "capacity": "7,500 residents",
+            "highlights": [
+              "Private single-occupancy suites",
+              "Lush visual central park steps",
+              "Aroma Food Court Access"
+            ],
+            "description": "Stately hostels containing single study chambers, customized common areas, and high quality dining cafeterias."
+          },
+          {
+            "id": "recreational",
+            "name": "Marena Sports Complex",
+            "type": "recreational",
+            "capacity": "3,000 capacity",
+            "highlights": [
+              "Indoor temperature-controlled track",
+              "High impact gymnasium suites",
+              "Acoustically soundproof arenas"
+            ],
+            "description": "One of Asia's largest multi-level indoor sports complexes with elite synthetic tracks, swimming pool, and squash arenas."
+          }
+        ],
+        "acreage": 313,
+        "hasHostels": true,
+        "established": 1957,
+        "totalBuildings": 75
+      },
+      "createdAt": "2026-06-27T14:29:31.126Z"
+    },
+    {
+      "id": 9,
+      "name": "UPES Dehradun",
+      "location": "Dehradun, India",
+      "state": "Uttarakhand",
+      "type": "Private",
+      "fee": 360000,
+      "rating": 4.2,
+      "students": "20,000+",
+      "courses": 180,
+      "image": "https://picsum.photos/seed/upes/800/500",
+      "logo": "https://logo.clearbit.com/upes.ac.in",
+      "categories": [
+        "Engineering",
+        "Management",
+        "Law",
+        "Design"
+      ],
+      "stream": [
+        "Engineering",
+        "Management",
+        "Law",
+        "Design",
+        "Science"
+      ],
+      "degrees": [
+        "B.Tech",
+        "MBA",
+        "LLB",
+        "B.Des",
+        "M.Tech"
+      ],
+      "majors": [
+        "Computer Science",
+        "Petroleum Engineering",
+        "Energy Engineering",
+        "Corporate Law",
+        "UX/UI Design"
+      ],
+      "popularCourses": [
+        "B.Tech Petroleum",
+        "B.Des Product Design",
+        "MBA Energy Management"
+      ],
+      "phone": "1800-102-8737",
+      "competitiveExams": [
+        "CUET",
+        "JEE Main",
+        "UPESEAT"
+      ],
+      "min10th": 60,
+      "min12th": 60,
+      "naacGrade": "A",
+      "nirfRank": 52,
+      "aicteApproved": true,
+      "nbaAccredited": false,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 7.5,
+      "website": "https://www.upes.ac.in/",
+      "virtualTourUrl": "https://youtu.be/hZvkVDX2GYw?si=HSGXgqtXU-EObZ-J",
+      "expertInsight": "UPES Dehradun is a pioneer in industry-focused education, particularly in Energy and Petroleum sectors. Their 'School for Life' initiative ensures students gain life skills alongside technical expertise, making them highly adaptable in the modern workforce.",
+      "alumniStories": [
+        {
+          "id": 401,
+          "name": "Karan Malhotra",
+          "role": "Drilling Operations Engineer",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+          "quote": "UPES's highly specialized energy curriculum and mountain-side petroleum test beds enabled me to transition to heavy field operations with deep domain confidence.",
+          "company": "ONGC",
+          "graduationYear": 2011,
+          "achievementBadge": "Energy Sector Innovator"
+        },
+        {
+          "id": 402,
+          "name": "Shreya Sen",
+          "role": "UX Interaction Lead",
+          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+          "quote": "The magnificent pine trees and mountains of UPES created a unique design setting that continually pushed my aesthetic limits in user experience design.",
+          "company": "Swiggy",
+          "graduationYear": 2018,
+          "achievementBadge": "Top Design Alumni"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "Bidholi Engineering Towers",
+            "type": "academic",
+            "capacity": "3,500 seats",
+            "highlights": [
+              "Pine valley views",
+              "Integrated Design labs",
+              "Real-time chemical testing gear"
+            ],
+            "description": "Stunning mountain-border academic classrooms hosting specialized petroleum, digital energy, and AI model networks."
+          },
+          {
+            "id": "research-park",
+            "name": "Solar & Bio-Fuel Research Wing",
+            "type": "research",
+            "capacity": "10 core labs",
+            "highlights": [
+              "Bio-diesel production platform",
+              "High solar tracking arrays",
+              "Alternative energy models"
+            ],
+            "description": "Strategic lab infrastructure centering biofuel chemical analysis, solar tracking system calibration, and environmental tracking instrumentation."
+          },
+          {
+            "id": "residential",
+            "name": "Bidholi Alpine Dormitories",
+            "type": "residential",
+            "capacity": "2,200 residents",
+            "highlights": [
+              "Thermal environment systems",
+              "Dehradun food network",
+              "Scenic outdoor trails"
+            ],
+            "description": "Cozy student quarters configured with warm floor heating, central hot water systems, and breathtaking valley scenic views."
+          },
+          {
+            "id": "recreational",
+            "name": "The amphitheatre & Lounge",
+            "type": "recreational",
+            "capacity": "1,500 capacity",
+            "highlights": [
+              "Mountain range view deck",
+              "Music presentation spaces",
+              "Strategic focal lighting design"
+            ],
+            "description": "Gorgeous open amphitheatre configured looking out onto clear mountain ranges, hosting student design work showcases."
+          }
+        ],
+        "acreage": 30,
+        "hasHostels": true,
+        "established": 2003,
+        "totalBuildings": 32
+      },
+      "createdAt": "2026-06-27T14:29:31.256Z"
+    },
+    {
+      "id": 16,
+      "name": "Amity University Noida",
+      "location": "Noida, India",
+      "state": "Uttar Pradesh",
+      "type": "Private",
+      "fee": 280000,
+      "rating": 4.1,
+      "students": "150,000+",
+      "courses": 400,
+      "image": "https://picsum.photos/seed/amity/800/500",
+      "logo": "https://logo.clearbit.com/amity.edu",
+      "categories": [
+        "Multi-disciplinary",
+        "Global"
+      ],
+      "stream": [
+        "Engineering",
+        "Management",
+        "Arts",
+        "Law",
+        "Medical"
+      ],
+      "degrees": [
+        "B.Tech",
+        "MBA",
+        "BA",
+        "LLB",
+        "MBBS"
+      ],
+      "majors": [
+        "Computer Science",
+        "Business Management",
+        "Psychology",
+        "Journalism"
+      ],
+      "popularCourses": [
+        "MBA",
+        "B.Tech CSE",
+        "B.A. Psychology"
+      ],
+      "phone": "0120-2445252",
+      "competitiveExams": [
+        "CUET",
+        "JEE Main",
+        "AMITYJEE"
+      ],
+      "min10th": 60,
+      "min12th": 60,
+      "naacGrade": "A+",
+      "nirfRank": 35,
+      "aicteApproved": true,
+      "nbaAccredited": false,
+      "nmcRecognized": true,
+      "avgPlacementLPA": 6.5,
+      "website": "https://www.amity.edu/",
+      "virtualTourUrl": "https://www.amity.edu/virtual-tour/",
+      "expertInsight": "Amity Noida highlights an extremely modern lifestyle campus environment in Delhi NCR. With massive high-rise blocks, high technology laboratories, and global study options, it holds immense popularity.",
+      "alumniStories": [
+        {
+          "id": 501,
+          "name": "Divya Sharma",
+          "role": "Senior Investment Strategist",
+          "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200",
+          "quote": "Amity Noida provided an incredible mix of academic depth and continuous corporate workshops that prepared me for competitive corporate finance.",
+          "company": "Goldman Sachs",
+          "graduationYear": 2015,
+          "achievementBadge": "Fintech Leader"
+        },
+        {
+          "id": 502,
+          "name": "Rohan Kapoor",
+          "role": "Co-Founder",
+          "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+          "quote": "The incubation parks and funding opportunities at Amity's annual events gave me the core pitching skills to request seed funds successfully.",
+          "company": "Volt D2C Brands",
+          "graduationYear": 2017,
+          "achievementBadge": "30 Under 30 nominee"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "Amity H-Block Towers",
+            "type": "academic",
+            "capacity": "9,000 seats",
+            "highlights": [
+              "Moot court rooms",
+              "Media broadcasting gear",
+              "Modern computing environments"
+            ],
+            "description": "Ultra-tech corporate-style high rises equipped with business rooms, legal mock moot courts, and media recording suites."
+          },
+          {
+            "id": "research-park",
+            "name": "Amity Microbial Tech Institute",
+            "type": "research",
+            "capacity": "16 laboratories",
+            "highlights": [
+              "Bio-amplifier systems",
+              "Sterile incubation environments",
+              "Industrial testing equipment"
+            ],
+            "description": "High performance research lab focusing on tissue culture advancements, agronomy developments, and modern bio-fuels."
+          },
+          {
+            "id": "residential",
+            "name": "Amity Residential Suites (H-I Blocks)",
+            "type": "residential",
+            "capacity": "4,500 residents",
+            "highlights": [
+              "Strict biometric checkpoints",
+              "Central dining cafeterias",
+              "Underground student lounge areas"
+            ],
+            "description": "Fully guarded modern resident dormitories complete with high-performance networking, hot water systems, and attached cafeterias."
+          },
+          {
+            "id": "recreational",
+            "name": "The Amity Central Plaza",
+            "type": "recreational",
+            "capacity": "4,000 capacity",
+            "highlights": [
+              "Global cuisine food courts",
+              "Central landscape lawn stairs",
+              "Grand outdoor track arenas"
+            ],
+            "description": "Sprawling active plaza configured with well-known food franchises, student bookstores, and central green stages for college events."
+          }
+        ],
+        "acreage": 60,
+        "hasHostels": true,
+        "established": 1986,
+        "totalBuildings": 48
+      },
+      "createdAt": "2026-06-27T14:29:31.387Z"
+    },
+    {
+      "id": 17,
+      "name": "SRM Institute of Science and Technology",
+      "location": "Chennai, India",
+      "state": "Tamil Nadu",
+      "type": "Private",
+      "fee": 350000,
+      "rating": 4.3,
+      "students": "50,000+",
+      "courses": 250,
+      "image": "https://picsum.photos/seed/srm/800/500",
+      "logo": "https://logo.clearbit.com/srmist.edu.in",
+      "categories": [
+        "Technical",
+        "Medical"
+      ],
+      "stream": [
+        "Engineering",
+        "Medical",
+        "Management"
+      ],
+      "degrees": [
+        "B.Tech",
+        "M.Tech",
+        "MBBS",
+        "MBA"
+      ],
+      "majors": [
+        "Computer Science",
+        "Nanotechnology",
+        "Automobile Engineering"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "MBBS",
+        "B.Tech Aerospace"
+      ],
+      "phone": "+91 44 2741 7000",
+      "competitiveExams": [
+        "SRMJEEE",
+        "JEE Main",
+        "NEET"
+      ],
+      "min10th": 60,
+      "min12th": 60,
+      "naacGrade": "A++",
+      "nirfRank": 18,
+      "aicteApproved": true,
+      "nbaAccredited": true,
+      "nmcRecognized": true,
+      "avgPlacementLPA": 8.5,
+      "website": "https://www.srmist.edu.in/",
+      "virtualTourUrl": "https://www.srmist.edu.in/virtual-tour/",
+      "expertInsight": "SRM Chennai holds a massive student population representing almost every state in India. Their space program, which built SRM-SAT in collaboration with ISRO, highlights their premier experimental support.",
+      "alumniStories": [
+        {
+          "id": 601,
+          "name": "Vikram Adithya",
+          "role": "Primary Aerospace Scientist",
+          "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+          "quote": "Constructing SRM-SAT, our own high-altitude model, in SRM's satellite project fundamentally directed my research passion towards aerospace simulation.",
+          "company": "ISRO Research",
+          "graduationYear": 2013,
+          "achievementBadge": "ISRO Satellite Scientist"
+        },
+        {
+          "id": 602,
+          "name": "Nithya Ramakrishnan",
+          "role": "Senior Director of Cloud Products",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+          "quote": "The immense diversity at SRM Chennai, dealing with over 40,000 students, forged my communication and cross-cultural product leadership abilities early on.",
+          "company": "Salesforce",
+          "graduationYear": 2011,
+          "achievementBadge": "Enterprise Software Leader"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "SRM Tech Park Tower",
+            "type": "academic",
+            "capacity": "8,500 seats",
+            "highlights": [
+              "Cloud research laboratory",
+              "Advanced modeling platforms",
+              "Engineering classrooms"
+            ],
+            "description": "Massive high-concept classroom block configured with server configurations, IoT networks, and engineering design hubs."
+          },
+          {
+            "id": "research-park",
+            "name": "SRM Space Science Laboratory",
+            "type": "research",
+            "capacity": "12 custom labs",
+            "highlights": [
+              "Satellite communication desk",
+              "Air tight electronics labs",
+              "Cleanroom level testing"
+            ],
+            "description": "Distinguished research pavilion hosting ground station satellite telemetry systems, ISRO-linked communication rigs, and cleanrooms."
+          },
+          {
+            "id": "residential",
+            "name": "Adhiyaman Mega Resident Complex",
+            "type": "residential",
+            "capacity": "10,500 residents",
+            "highlights": [
+              "attached dining facilities",
+              "Indoor sports games rooms",
+              "Health clinic helpdesks"
+            ],
+            "description": "Hostel arrays equipped with integrated spacious food corridors, laundry service centers, and fully attached washrooms."
+          },
+          {
+            "id": "recreational",
+            "name": "TP Ganesan Convention Center",
+            "type": "recreational",
+            "capacity": "4,500 seats",
+            "highlights": [
+              "State-of-the-art acoustic panels",
+              "Sub-conference seminar vaults",
+              "Vast reception lobbies"
+            ],
+            "description": "One of the grandest auditoriums in India, hosting international symposiums, celebrity keynotes, and student fests."
+          }
+        ],
+        "acreage": 250,
+        "hasHostels": true,
+        "established": 1985,
+        "totalBuildings": 68
+      },
+      "createdAt": "2026-06-27T14:29:31.517Z"
+    },
+    {
+      "id": 18,
+      "name": "Thapar Institute of Engineering and Technology",
+      "location": "Patiala, India",
+      "state": "Punjab",
+      "type": "Private",
+      "fee": 450000,
+      "rating": 4.4,
+      "students": "12,000+",
+      "courses": 80,
+      "image": "https://picsum.photos/seed/thapar/800/500",
+      "logo": "https://logo.clearbit.com/thapar.edu",
+      "categories": [
+        "Technical",
+        "Research"
+      ],
+      "stream": [
+        "Engineering",
+        "Management"
+      ],
+      "degrees": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "majors": [
+        "Computer Science",
+        "Electronics & Communication",
+        "Mechanical Engineering"
+      ],
+      "popularCourses": [
+        "B.E. Computer Engineering",
+        "B.E. Electronics",
+        "MBA Finance"
+      ],
+      "phone": "+91 175 239 3021",
+      "competitiveExams": [
+        "JEE Main"
+      ],
+      "min10th": 60,
+      "min12th": 70,
+      "naacGrade": "A+",
+      "nirfRank": 20,
+      "aicteApproved": true,
+      "nbaAccredited": true,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 10.5,
+      "website": "https://www.thapar.edu/",
+      "virtualTourUrl": "https://www.thapar.edu/virtual-tour/",
+      "expertInsight": "Thapar Patiala is internationally acknowledged for outstanding infrastructure designed by world class architects. Their learning blocks feature soundproofed, highly inspiring study zones.",
+      "alumniStories": [
+        {
+          "id": 701,
+          "name": "Gurudev Singh",
+          "role": "Principal Principal Engineer",
+          "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+          "quote": "The relentless engineering standards and coding discipline in Patiala helped me architect high load cloud systems that serve the global web infrastructure today.",
+          "company": "Amazon Web Services",
+          "graduationYear": 1999,
+          "achievementBadge": "Cloud Architect Lead"
+        },
+        {
+          "id": 702,
+          "name": "Natasha Gill",
+          "role": "Lead Architect",
+          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+          "quote": "Thapar's red-brick building layouts and world-class architectural spaces physically demonstrated structural design excellence inside the campus walls.",
+          "company": "Gensler Architects",
+          "graduationYear": 2008,
+          "achievementBadge": "International Architect"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "Thapar Learning Center (TLC)",
+            "type": "academic",
+            "capacity": "5,000 seats",
+            "highlights": [
+              "Award-winning global architecture",
+              "spacious interaction desks",
+              "Sound insulated study bays"
+            ],
+            "description": "Stunning contemporary academic block designed with soundproofing, custom multimedia projection systems, and open layouts."
+          },
+          {
+            "id": "research-park",
+            "name": "Thapar Strategic Research Wing",
+            "type": "research",
+            "capacity": "14 high-tech labs",
+            "highlights": [
+              "Specialized materials lab",
+              "Environmental chemistry bay",
+              "Supercomputing stations"
+            ],
+            "description": "Advanced infrastructure supporting sustainable materials testing, structural simulation, polymer engineering, and AI grids."
+          },
+          {
+            "id": "residential",
+            "name": "Mod Hostels (M & N Block)",
+            "type": "residential",
+            "capacity": "4,500 residents",
+            "highlights": [
+              "Biophilic design interiors",
+              "Quiet individual study zones",
+              "Modern dining dining"
+            ],
+            "description": "Contemporary glass-paneled hostel configurations offering beautiful student resident layouts with silent study desks."
+          },
+          {
+            "id": "recreational",
+            "name": "COS Student Center Plaza",
+            "type": "recreational",
+            "capacity": "2,000 capacity",
+            "highlights": [
+              "Patiala brick outdoor theatre",
+              "Lush visual dining patios",
+              "Indie music setups"
+            ],
+            "description": "The primary brick amphitheatre and outdoor restaurant lounge where students hold concerts and interact."
+          }
+        ],
+        "acreage": 250,
+        "hasHostels": true,
+        "established": 1956,
+        "totalBuildings": 52
+      },
+      "createdAt": "2026-06-27T14:29:31.647Z"
+    },
+    {
+      "id": 19,
+      "name": "Shiv Nadar University",
+      "location": "Greater Noida, India",
+      "state": "Uttar Pradesh",
+      "type": "Private",
+      "fee": 400000,
+      "rating": 4.5,
+      "students": "4,000+",
+      "courses": 100,
+      "image": "https://picsum.photos/seed/snu/800/500",
+      "logo": "https://logo.clearbit.com/snu.edu.in",
+      "categories": [
+        "Research",
+        "Interdisciplinary"
+      ],
+      "stream": [
+        "Engineering",
+        "Arts",
+        "Science",
+        "Management"
+      ],
+      "degrees": [
+        "B.Tech",
+        "B.Sc",
+        "BA",
+        "MBA",
+        "PhD"
+      ],
+      "majors": [
+        "Computer Science",
+        "Physics",
+        "Economics",
+        "International Relations"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Sc Physics",
+        "MBA"
+      ],
+      "phone": "+91 120 7170100",
+      "competitiveExams": [
+        "SNU SAT",
+        "JEE Main"
+      ],
+      "min10th": 70,
+      "min12th": 75,
+      "naacGrade": "A",
+      "nirfRank": 62,
+      "aicteApproved": true,
+      "nbaAccredited": false,
+      "nmcRecognized": false,
+      "avgPlacementLPA": 9.2,
+      "website": "https://snu.edu.in/",
+      "virtualTourUrl": "https://snu.edu.in/virtual-tour/",
+      "expertInsight": "Shiv Nadar is a highly innovative research-focused institution located in Greater Noida NCR. Their scenic wetlands are integrated within the campus size to form a magnificent green climate workspace.",
+      "alumniStories": [
+        {
+          "id": 801,
+          "name": "Aditya Verma",
+          "role": "Principal Computational Research Scientist",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+          "quote": "Engaging in intensive research operations as an undergraduate under SNU's world-class faculty laid the base for my computational physics studies in Cambridge and MIT.",
+          "company": "MIT Media Lab",
+          "graduationYear": 2015,
+          "achievementBadge": "MIT Research Scientist"
+        },
+        {
+          "id": 802,
+          "name": "Pooja Hegde",
+          "role": "Quantitative Financial Architect",
+          "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+          "quote": "SNU's pioneering interdisciplinary model trained us to blend complex economic math with heavy scalable data structures—leading directly to high-frequency trading success.",
+          "company": "Citadel LLC",
+          "graduationYear": 2017,
+          "achievementBadge": "Citadel Quantitative Analyst"
+        }
+      ],
+      "campusMap": {
+        "zones": [
+          {
+            "id": "academic-block",
+            "name": "SNU School of Engineering Complex",
+            "type": "academic",
+            "capacity": "3,000 seats",
+            "highlights": [
+              "Private compute clusters",
+              "Integrated hardware testing setups",
+              "smart acoustic design"
+            ],
+            "description": "High-spec classrooms fitted with smart boards, embedded electronics labs, and private server virtualization rigs."
+          },
+          {
+            "id": "research-park",
+            "name": "Shiv Nadar Innovation Park",
+            "type": "research",
+            "capacity": "22 active startup teams",
+            "highlights": [
+              "Smart drone navigation arena",
+              "Custom chemical reactors",
+              "Venture mentoring tables"
+            ],
+            "description": "Top-tier incubation center fostering research across biomedical technologies, advanced drone navigation, and fintech solutions."
+          },
+          {
+            "id": "residential",
+            "name": "Integrated Lake Resident Towers",
+            "type": "residential",
+            "capacity": "3,500 residents",
+            "highlights": [
+              "Attached scenic balconies",
+              "Spacious bio-wetlands scenery",
+              "Community study suites"
+            ],
+            "description": "Lush student hosteling complexes styled surrounding local wetland views, hosting 24/7 common coding rooms."
+          },
+          {
+            "id": "recreational",
+            "name": "Wetlands & Stadium Sports Center",
+            "type": "recreational",
+            "capacity": "2,500 capacity",
+            "highlights": [
+              "Scenic bio-wetlands",
+              "Air-conditioned indoor arenas",
+              "attached music galleries"
+            ],
+            "description": "Grand bio- wetland environment integrated with high quality sports structures, running paths, and indoor game arenas."
+          }
+        ],
+        "acreage": 286,
+        "hasHostels": true,
+        "established": 2011,
+        "totalBuildings": 36
+      },
+      "createdAt": "2026-06-27T14:29:31.777Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "f695c75385393cc8422d412b1d7d4108d2dba1ea9b36311c004e7d96ec1834c6",
+      "email": "gamekillerr206@gmail.com",
+      "expiresAt": 1782725691369
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "universityId": 5,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Rahul S.",
+      "rating": 5,
+      "comment": "The culture here is unmatched. BITSAT was worth it!",
+      "avatar": "https://i.pravatar.cc/150?u=rahul",
+      "reviewDate": "2024-03-10",
+      "createdAt": "2026-06-27T14:29:30.799Z"
+    },
+    {
+      "id": 2,
+      "universityId": 5,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Ananya M.",
+      "rating": 4,
+      "comment": "Great infrastructure and zero attendance policy is a boon.",
+      "avatar": "https://i.pravatar.cc/150?u=ananya",
+      "reviewDate": "2024-02-15",
+      "createdAt": "2026-06-27T14:29:30.865Z"
+    },
+    {
+      "id": 3,
+      "universityId": 7,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Priya K.",
+      "rating": 5,
+      "comment": "Placement cell is amazing. Got into a top MNC!",
+      "avatar": "https://i.pravatar.cc/150?u=priya",
+      "reviewDate": "2024-03-01",
+      "createdAt": "2026-06-27T14:29:30.995Z"
+    },
+    {
+      "id": 4,
+      "universityId": 7,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Vikram R.",
+      "rating": 4,
+      "comment": "Campus is huge, but very crowded.",
+      "avatar": "https://i.pravatar.cc/150?u=vikram",
+      "reviewDate": "2024-01-20",
+      "createdAt": "2026-06-27T14:29:31.060Z"
+    },
+    {
+      "id": 5,
+      "universityId": 8,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Siddharth J.",
+      "rating": 4,
+      "comment": "Best student life in India. Period.",
+      "avatar": "https://i.pravatar.cc/150?u=sid",
+      "reviewDate": "2024-02-28",
+      "createdAt": "2026-06-27T14:29:31.191Z"
+    },
+    {
+      "id": 6,
+      "universityId": 9,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Megha D.",
+      "rating": 4,
+      "comment": "Specialized courses are very industry-focused.",
+      "avatar": "https://i.pravatar.cc/150?u=megha",
+      "reviewDate": "2024-03-05",
+      "createdAt": "2026-06-27T14:29:31.321Z"
+    },
+    {
+      "id": 7,
+      "universityId": 16,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Karan P.",
+      "rating": 3,
+      "comment": "Infrastructure is top-notch, but academics can be better.",
+      "avatar": "https://i.pravatar.cc/150?u=karan",
+      "reviewDate": "2024-02-10",
+      "createdAt": "2026-06-27T14:29:31.452Z"
+    },
+    {
+      "id": 8,
+      "universityId": 17,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Arjun V.",
+      "rating": 4,
+      "comment": "Great research opportunities in Nanotech.",
+      "avatar": "https://i.pravatar.cc/150?u=arjun",
+      "reviewDate": "2024-03-12",
+      "createdAt": "2026-06-27T14:29:31.582Z"
+    },
+    {
+      "id": 9,
+      "universityId": 18,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Simran G.",
+      "rating": 5,
+      "comment": "Academic rigor is high, but prepares you well.",
+      "avatar": "https://i.pravatar.cc/150?u=simran",
+      "reviewDate": "2024-03-08",
+      "createdAt": "2026-06-27T14:29:31.712Z"
+    },
+    {
+      "id": 10,
+      "universityId": 19,
+      "userEmail": "student@uniinfo.edu",
+      "userName": "Ishaan T.",
+      "rating": 5,
+      "comment": "Research-led teaching is the best part.",
+      "avatar": "https://i.pravatar.cc/150?u=ishaan",
+      "reviewDate": "2024-03-15",
+      "createdAt": "2026-06-27T14:29:31.842Z"
+    }
+  ],
+  "bookmarks": [],
+  "chatHistory": [
+    {
+      "id": 1,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "What are the private colleges with the absolute highest average placement package (LPA)?",
+      "correlationId": "52c7776d-c935-4e59-9865-24caa42d0936",
+      "createdAt": "2026-06-27T15:43:32.026Z"
+    },
+    {
+      "id": 2,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "To give you the most accurate information, I'd like to know a bit more about your preferences. However, based on our database, here are some top private colleges with high average placement packages:\n\n- [[BITS Pilani|5]] - Excellent for engineering, with an average placement package of 11.8 LPA.\n- [[Manipal Institute of Technology|8]] - Highly acclaimed for engineering, with an average placement package of 10 LPA.\n- [[VIT Vellore|7]] - Renowned for its massive campus and industry-linked curriculum, with an average placement package of 9.5 LPA.\n\nPlease note that placement packages can vary from year to year and may depend on various factors such as the student's performance, industry trends, and more.\n\nTo give you more personalized suggestions, could you please tell me:\n1. Which branch or course are you interested in (e.g., Computer Science, Mechanical Engineering, etc.)?\n2. What is your expected annual tuition fee budget?",
+      "correlationId": "52c7776d-c935-4e59-9865-24caa42d0936",
+      "createdAt": "2026-06-27T15:43:33.061Z"
+    },
+    {
+      "id": 3,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "Damn bro, I am too lazy tell in short",
+      "correlationId": "a32133b8-3635-4afe-935c-e3a80cc1bfb1",
+      "createdAt": "2026-06-27T15:44:03.020Z"
+    },
+    {
+      "id": 4,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "No worries, bro! I got you. What course are you interested in? (e.g., CS, Mech, etc.)?",
+      "correlationId": "a32133b8-3635-4afe-935c-e3a80cc1bfb1",
+      "createdAt": "2026-06-27T15:44:03.682Z"
+    },
+    {
+      "id": 5,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "CS",
+      "correlationId": "3b3e59cc-fc0b-486b-8016-872264fdd385",
+      "createdAt": "2026-06-27T15:44:09.116Z"
+    },
+    {
+      "id": 6,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "For CS, here are some top private colleges with high average placement packages:\n\n- [[BITS Pilani|5]] (11.8 LPA)\n- [[VIT Vellore|7]] (9.5 LPA)\n- [[SRM Institute of Science and Technology|]] (no ID available, but it's a great option too)\n\nWhat's your expected annual tuition fee budget, bro?",
+      "correlationId": "3b3e59cc-fc0b-486b-8016-872264fdd385",
+      "createdAt": "2026-06-27T15:44:09.878Z"
+    },
+    {
+      "id": 7,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "How about UPES DDN",
+      "correlationId": "9ec24e30-42de-4cb0-9778-9690c72bceb5",
+      "createdAt": "2026-06-27T15:44:21.794Z"
+    },
+    {
+      "id": 8,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "[[UPES Dehradun|9]] is a great option for CS, with an average placement package of 7.5 LPA. They're known for their industry-focused education, especially in the Energy and Petroleum sectors. However, for CS, other colleges like [[BITS Pilani|5]] and [[VIT Vellore|7]] might have a slightly better placement record.\n\nWhat's your priority, bro - highest placement package or something else?",
+      "correlationId": "9ec24e30-42de-4cb0-9778-9690c72bceb5",
+      "createdAt": "2026-06-27T15:44:22.513Z"
+    },
+    {
+      "id": 9,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "IDK man, maybe girls",
+      "correlationId": "98925ac0-632d-47c4-ae90-a0052c42706a",
+      "createdAt": "2026-06-27T15:44:32.048Z"
+    },
+    {
+      "id": 10,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "Bro, I got it! So, you're looking for a college with a good crowd, especially girls, right? \n\nWhile I don't have exact stats on the gender ratio, I can tell you that [[VIT Vellore|7]] and [[SRM Institute of Science and Technology|]] (if I had the ID) are generally known to have a decent mix of students. [[UPES Dehradun|9]] also has a pretty cool campus vibe.\n\nBut, let's get back to academics, bro! What's your expected annual tuition fee budget? Are you looking to spend less than 3 lakhs, 4 lakhs, or more?",
+      "correlationId": "98925ac0-632d-47c4-ae90-a0052c42706a",
+      "createdAt": "2026-06-27T15:44:33.147Z"
+    },
+    {
+      "id": 11,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "user",
+      "content": "Which private institutions are ranked highest by the National Institutional Ranking Framework (NIRF) in the top 30, and what are their NAAC grades?",
+      "correlationId": "953997b4-04e3-4b4c-91f0-b6459ff3016a",
+      "createdAt": "2026-06-28T09:35:00.333Z"
+    },
+    {
+      "id": 12,
+      "userEmail": "gamekillerr206@gmail.com",
+      "role": "assistant",
+      "content": "Based on the provided database, here are the private institutions ranked within the top 30 by NIRF, along with their NAAC grades:\n\n* VIT Vellore - NIRF Rank: 11, NAAC Grade: A++\n* SRM Institute of Science and Technology - NIRF Rank: 18, NAAC Grade: A++\n* BITS Pilani - NIRF Rank: 25, NAAC Grade: A\n* Manipal Institute of Technology - NIRF Rank: 45, NAAC Grade: A+\n* Amity University Noida - NIRF Rank: 35, NAAC Grade: A+\n* UPES Dehradun - NIRF Rank: 52, NAAC Grade: A\n\nPlease note that the rankings may change over time. These rankings are based on the data available in our database.\n\nNow, let's discuss your preferences. Which of these factors matters most to you when choosing a university: \n1. Placements\n2. Faculty quality\n3. Research opportunities\n4. Campus life\n5. International exposure\n6. Startup ecosystem\n\nYour input will help me provide more tailored guidance.",
+      "correlationId": "953997b4-04e3-4b4c-91f0-b6459ff3016a",
+      "createdAt": "2026-06-28T09:35:01.349Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1,
+      "action": "register",
+      "details": {
+        "role": "Student",
+        "email": "gamekillerr206@gmail.com"
+      },
+      "userEmail": null,
+      "ip": "127.0.0.1",
+      "status": null,
+      "correlationId": "241a97c8-e28d-4ada-b8cc-86b96da3b9dd",
+      "createdAt": "2026-06-27T15:25:12.443Z"
+    },
+    {
+      "id": 2,
+      "action": "login_google",
+      "details": {
+        "email": "gamekillerr206@gmail.com"
+      },
+      "userEmail": null,
+      "ip": "127.0.0.1",
+      "status": null,
+      "correlationId": "ceffd8be-f6a3-4a3e-99c4-f0d2743c5bb2",
+      "createdAt": "2026-06-27T15:43:24.737Z"
+    },
+    {
+      "id": 3,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 3
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "52c7776d-c935-4e59-9865-24caa42d0936",
+      "createdAt": "2026-06-27T15:43:32.024Z"
+    },
+    {
+      "id": 4,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 5
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "a32133b8-3635-4afe-935c-e3a80cc1bfb1",
+      "createdAt": "2026-06-27T15:44:02.600Z"
+    },
+    {
+      "id": 5,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 7
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "3b3e59cc-fc0b-486b-8016-872264fdd385",
+      "createdAt": "2026-06-27T15:44:09.108Z"
+    },
+    {
+      "id": 6,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 9
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "9ec24e30-42de-4cb0-9778-9690c72bceb5",
+      "createdAt": "2026-06-27T15:44:21.795Z"
+    },
+    {
+      "id": 7,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 11
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "98925ac0-632d-47c4-ae90-a0052c42706a",
+      "createdAt": "2026-06-27T15:44:32.047Z"
+    },
+    {
+      "id": 8,
+      "action": "login_google",
+      "details": {
+        "email": "gamekillerr206@gmail.com"
+      },
+      "userEmail": null,
+      "ip": "127.0.0.1",
+      "status": null,
+      "correlationId": "6ef318ec-c66b-48e5-906d-7526bb52fbb3",
+      "createdAt": "2026-06-28T09:34:51.464Z"
+    },
+    {
+      "id": 9,
+      "action": "recommendation_request",
+      "details": {
+        "temperature": 0.7,
+        "messagesCount": 3
+      },
+      "userEmail": null,
+      "ip": null,
+      "status": null,
+      "correlationId": "953997b4-04e3-4b4c-91f0-b6459ff3016a",
+      "createdAt": "2026-06-28T09:35:00.334Z"
+    }
+  ],
+  "loginAttempts": [
+    {
+      "id": 1,
+      "ip": "127.0.0.1",
+      "email": "nabhanshg01@gmail.com",
+      "success": false,
+      "attemptTime": "2026-06-27T15:16:44.436Z"
+    },
+    {
+      "id": 2,
+      "ip": "127.0.0.1",
+      "email": "gamekillerr206@gmail.com",
+      "success": false,
+      "attemptTime": "2026-06-27T15:24:53.035Z"
+    },
+    {
+      "id": 3,
+      "ip": "127.0.0.1",
+      "email": "gamekillerr206@gmail.com",
+      "success": true,
+      "attemptTime": "2026-06-27T15:25:12.838Z"
+    },
+    {
+      "id": 4,
+      "ip": "127.0.0.1",
+      "email": "gamekillerr206@gmail.com",
+      "success": true,
+      "attemptTime": "2026-06-27T15:43:25.119Z"
+    },
+    {
+      "id": 5,
+      "ip": "127.0.0.1",
+      "email": "gamekillerr206@gmail.com",
+      "success": true,
+      "attemptTime": "2026-06-28T09:34:51.856Z"
+    }
+  ],
+  "studentProfiles": [],
+  "parentProfiles": [],
+  "notifications": []
+}
